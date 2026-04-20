@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ciberseguridad_2026"
+dynamic = ["version"]
+description = "Apuntes del curso de Ciberseguridad (ICC610)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "Cucharoth", email = "cucharoth@gmail.com"}]
+keywords = ['nbdev']
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = [
+    "jupyterlab>=4.5.6",
+    "nbdev>=3.0.12",
+    "pandas>=2.0.0",
+    "ipywidgets>=8.0.0",
+    "matplotlib>=3.7.0",
+]
+
+[project.urls]
+Repository = "https://github.com/dci-courses/ciberseguridad_2026"
+Documentation = "https://dci-courses.github.io/ciberseguridad_2026/"
+
+[project.entry-points.nbdev]
+ciberseguridad_2026 = "ciberseguridad_2026._modidx:d"
+
+[tool.setuptools.dynamic]
+version = {attr = "ciberseguridad_2026.__version__"}
+
+[tool.setuptools.packages.find]
+include = ["ciberseguridad_2026"]
+
+[tool.nbdev]
+custom_sidebar = true

@@ -1,0 +1,41 @@
+project:
+    type: website
+    output-dir: _docs
+    render:
+        - "index.ipynb"
+        - "sbom/introduccion_sboms.md"
+        - "sbom/generacion_sbom.ipynb"
+        - "sbom/explicacion_script_sbom.ipynb"
+        - "vuln/introduccion_sboms.md"
+        - "vuln/introduccion_vulnerabilidades.md"
+        - "vuln/taxonomia_vulnerabilidades.md"
+        - "vuln/caso_litellm.md"
+        - "vuln/generacion_codeql.ipynb"
+        - "vuln/explicacion_script_codeql.ipynb"
+        - "vuln/generacion_grype.ipynb"
+        - "vuln/explicacion_script_grype.ipynb"
+lang: es
+format:
+    html:
+        theme: cosmo
+        css: styles.css
+        toc: true
+        keep-md: true
+    commonmark: default
+
+website:
+    twitter-card: true
+    open-graph: true
+    repo-actions: [issue]
+    navbar:
+        background: transparent
+        search: true
+    sidebar:
+        style: floating
+        pinned: true
+
+metadata-files: [nbdev.yml, sidebar.yml]
+
+execute:
+    eval: false
+    cache: false

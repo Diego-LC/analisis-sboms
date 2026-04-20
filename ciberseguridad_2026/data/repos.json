@@ -1,0 +1,24 @@
+{
+    "repositories": [
+        {
+            "url": "https://github.com/encode/django-rest-framework.git",
+            "path": "data/repos/django-rest-framework",
+            "ref": null
+        },
+        {
+            "url": "https://github.com/encode/httpx.git",
+            "path": "data/repos/httpx",
+            "ref": null
+        },
+        {
+            "url": "https://github.com/encode/httpnext.git",
+            "path": "data/repos/httpnext",
+            "ref": null
+        },
+        {
+            "url": "https://github.com/encode/rest-framework-tutorial.git",
+            "path": "data/repos/rest-framework-tutorial",
+            "ref": null
+        }
+    ]
+}

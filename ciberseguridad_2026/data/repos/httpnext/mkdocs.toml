@@ -1,0 +1,6 @@
+[mkdocs]
+nav = []
+
+[loaders]
+theme = "dir://docs"
+docs = "dir://docs"

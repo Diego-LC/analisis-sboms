@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "ciberseguridad_2026"
+  site-url: "https://dci-courses.github.io/ciberseguridad_2026"
+  description: "Apuntes del curso de Ciberseguridad (ICC610)"
+  repo-branch: main
+  repo-url: "https://github.com/dci-courses/ciberseguridad_2026"

@@ -1,0 +1,10 @@
+[submodule "data/repos/httpx"]
+	path = data/repos/httpx
+	url = https://github.com/encode/httpx.git
+[submodule "data/repos/httpnext"]
+	path = data/repos/httpnext
+[submodule "data/repos/rest-framework-tutorial"]
+	path = data/repos/rest-framework-tutorial
+[submodule "data/repos/django-rest-framework"]
+	path = data/repos/django-rest-framework
+	url = https://github.com/encode/django-rest-framework.git

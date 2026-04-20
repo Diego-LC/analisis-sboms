@@ -1,0 +1,9 @@
+#!/bin/sh
+
+export PREFIX=""
+if [ -d 'venv' ] ; then
+    export PREFIX="venv/bin/"
+fi
+
+${PREFIX}mypy src/ahttpx
+${PREFIX}pytest --cov src/ahttpx tests/test_ahttpx

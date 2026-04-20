@@ -1,0 +1,18 @@
+website:
+    sidebar:
+        contents:
+            - index.ipynb
+            - section: SBOM
+              contents:
+                  - sbom/introduccion_sboms.md
+                  - sbom/generacion_sbom.ipynb
+                  - sbom/explicacion_script_sbom.ipynb
+            - section: Vulnerabilidades
+              contents:
+                  - vuln/introduccion_vulnerabilidades.md
+                  - vuln/taxonomia_vulnerabilidades.md
+                  - vuln/caso_litellm.md
+                  - vuln/generacion_codeql.ipynb
+                  - vuln/explicacion_script_codeql.ipynb
+                  - vuln/generacion_grype.ipynb
+                  - vuln/explicacion_script_grype.ipynb

@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Open Welcome File",
+            "type": "shell",
+            "runOptions": {
+                "runOn": "folderOpen"
+            },
+            "presentation": {
+                "reveal": "never",
+                "panel": "shared"
+            },
+            "linux": {
+                "command": "if [ -f .welcome_flag ]; then code -r WELCOME.md && rm .welcome_flag; fi",
+            }
+        }
+    ]
+}
