@@ -1,0 +1,192 @@
+{
+  "total_vulnerabilities": 16,
+  "vulnerabilities_by_severity": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 16
+  },
+  "vulnerabilities": [
+    {
+      "package_name": "werkzeug",
+      "current_version": "2.3.3",
+      "vuln_id": "GHSA-2g68-c3qc-8985",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Werkzeug debugger vulnerable to remote execution when interacting with attacker controlled domain",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "werkzeug",
+      "current_version": "2.3.3",
+      "vuln_id": "GHSA-f9vj-2wh5-fj8j",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Werkzeug safe_join not safe on Windows",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "werkzeug",
+      "current_version": "2.3.3",
+      "vuln_id": "GHSA-q34m-jh98-gwm2",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Werkzeug possible resource exhaustion when parsing file data in forms",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "jinja2",
+      "current_version": "3.1.2",
+      "vuln_id": "GHSA-h75v-3vvj-5mfj",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Jinja vulnerable to HTML attribute injection when passing user input as keys to xmlattr filter",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "werkzeug",
+      "current_version": "2.3.3",
+      "vuln_id": "GHSA-hrfv-mqp8-q5rw",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Werkzeug DoS: High resource usage when parsing multipart/form-data containing a large part with CR/LF character at the beginning",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "jinja2",
+      "current_version": "3.1.2",
+      "vuln_id": "GHSA-gmj6-6f8f-6699",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Jinja has a sandbox breakout through malicious filenames",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "jinja2",
+      "current_version": "3.1.2",
+      "vuln_id": "GHSA-q2x7-8rv6-6q7h",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Jinja has a sandbox breakout through indirect reference to format method",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "jinja2",
+      "current_version": "3.1.2",
+      "vuln_id": "GHSA-h5c8-rqwp-cp95",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Jinja vulnerable to HTML attribute injection when passing user input as keys to xmlattr filter",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "jinja2",
+      "current_version": "3.1.2",
+      "vuln_id": "GHSA-cpwx-vrp4-4pq7",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Jinja2 vulnerable to sandbox breakout through attr filter selecting format method",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "cryptography",
+      "current_version": "46.0.6",
+      "vuln_id": "GHSA-p423-j2cm-9vmq",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Cryptography vulnerable to buffer overflow if non-contiguous buffers were passed to APIs",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "werkzeug",
+      "current_version": "2.3.3",
+      "vuln_id": "GHSA-hgf8-39gv-g3f2",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Werkzeug safe_join() allows Windows special device names",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "werkzeug",
+      "current_version": "2.3.3",
+      "vuln_id": "GHSA-87hc-h4r5-73f7",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Werkzeug safe_join() allows Windows special device names with compound extensions",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "werkzeug",
+      "current_version": "2.3.3",
+      "vuln_id": "GHSA-29vq-49wr-vm6x",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Werkzeug safe_join() allows Windows special device names",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "pytest",
+      "current_version": "9.0.2",
+      "vuln_id": "GHSA-6w46-j5rx-g56g",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "pytest has vulnerable tmpdir handling",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "flask",
+      "current_version": "2.3.2",
+      "vuln_id": "GHSA-68rp-wp8r-4726",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Flask session does not add `Vary: Cookie` header when accessed in some ways",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "uv",
+      "current_version": "0.11.3",
+      "vuln_id": "GHSA-pjjw-68hj-v9mw",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "uv vulnerable to arbitrary file deletion through RECORD entries",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    }
+  ],
+  "grype_metadata": {
+    "grype_version": "unknown",
+    "db_location": "",
+    "scanned_path": "/workspaces/ciberseguridad_2026/data/repos/flask"
+  }
+}

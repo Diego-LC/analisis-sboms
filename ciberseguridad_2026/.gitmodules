@@ -1,10 +1,12 @@
-[submodule "data/repos/httpx"]
-	path = data/repos/httpx
-	url = https://github.com/encode/httpx.git
-[submodule "data/repos/httpnext"]
-	path = data/repos/httpnext
-[submodule "data/repos/rest-framework-tutorial"]
-	path = data/repos/rest-framework-tutorial
-[submodule "data/repos/django-rest-framework"]
-	path = data/repos/django-rest-framework
-	url = https://github.com/encode/django-rest-framework.git
+
+[submodule "data/repos/werkzeug"]
+	path = data/repos/werkzeug
+	url = https://github.com/pallets/werkzeug.git
+[submodule "data/repos/click"]
+	path = data/repos/click
+[submodule "data/repos/flask"]
+	path = data/repos/flask
+[submodule "data/repos/pallets-sphinx-themes"]
+	path = data/repos/pallets-sphinx-themes
+[submodule "data/repos/website"]
+	path = data/repos/website

@@ -1,0 +1,1701 @@
+{
+  "total_issues": 122,
+  "issues_by_severity": {
+    "error": 0,
+    "warning": 122,
+    "note": 0
+  },
+  "issues": [
+    {
+      "rule_id": "py/clear-text-logging-sensitive-data",
+      "rule_index": 24,
+      "level": "warning",
+      "message": "This expression logs [sensitive data (password)](1) as clear text.",
+      "file": "src/click/utils.py",
+      "region": {
+        "startLine": 321,
+        "startColumn": 16,
+        "endColumn": 19
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/overly-permissive-file",
+      "rule_index": 44,
+      "level": "warning",
+      "message": "Overly permissive mask in open sets file to world writable.",
+      "file": "src/click/_compat.py",
+      "region": {
+        "startLine": 432,
+        "startColumn": 18,
+        "endColumn": 79
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/redundant-comparison",
+      "rule_index": 59,
+      "level": "warning",
+      "message": "Test is always true, because of [this condition](1).",
+      "file": "src/click/utils.py",
+      "region": {
+        "startLine": 99,
+        "startColumn": 42,
+        "endColumn": 47
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unnecessary-lambda",
+      "rule_index": 75,
+      "level": "warning",
+      "message": "This 'lambda' is just a simple wrapper around a callable object. Use that object directly.",
+      "file": "tests/test_termui.py",
+      "region": {
+        "startLine": 302,
+        "startColumn": 57,
+        "endColumn": 73
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unnecessary-lambda",
+      "rule_index": 75,
+      "level": "warning",
+      "message": "This 'lambda' is just a simple wrapper around a callable object. Use that object directly.",
+      "file": "tests/test_utils.py",
+      "region": {
+        "startLine": 318,
+        "startColumn": 24,
+        "endColumn": 48
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unnecessary-lambda",
+      "rule_index": 75,
+      "level": "warning",
+      "message": "This 'lambda' is just a simple wrapper around a callable object. Use that object directly.",
+      "file": "tests/test_utils.py",
+      "region": {
+        "startLine": 354,
+        "startColumn": 24,
+        "endColumn": 67
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unnecessary-lambda",
+      "rule_index": 75,
+      "level": "warning",
+      "message": "This 'lambda' is just a simple wrapper around a callable object. Use that object directly.",
+      "file": "tests/test_utils.py",
+      "region": {
+        "startLine": 366,
+        "startColumn": 24,
+        "endColumn": 53
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unsafe-cyclic-import",
+      "rule_index": 82,
+      "level": "warning",
+      "message": "'_get_windows_console_stream' may not be defined if module [click._winconsole](1) is imported before module [click._compat](2), as the [definition](3) of _get_windows_console_stream occurs after the cyclic [import](4) of click._compat.",
+      "file": "src/click/_compat.py",
+      "region": {
+        "startLine": 513,
+        "startColumn": 30,
+        "endColumn": 57
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/cyclic-import",
+      "rule_index": 86,
+      "level": "warning",
+      "message": "Import of module [click._compat](1) begins an import cycle.",
+      "file": "src/click/_winconsole.py",
+      "region": {
+        "startLine": 32,
+        "endColumn": 46
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/cyclic-import",
+      "rule_index": 86,
+      "level": "warning",
+      "message": "Import of module [click.types](1) begins an import cycle.",
+      "file": "src/click/core.py",
+      "region": {
+        "startLine": 21,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/cyclic-import",
+      "rule_index": 86,
+      "level": "warning",
+      "message": "Import of module [click.termui](1) begins an import cycle.",
+      "file": "src/click/core.py",
+      "region": {
+        "startLine": 37,
+        "endColumn": 28
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/cyclic-import",
+      "rule_index": 86,
+      "level": "warning",
+      "message": "Import of module [click.termui](1) begins an import cycle.",
+      "file": "src/click/core.py",
+      "region": {
+        "startLine": 38,
+        "endColumn": 27
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/cyclic-import",
+      "rule_index": 86,
+      "level": "warning",
+      "message": "Import of module [click.termui](1) begins an import cycle.",
+      "file": "src/click/core.py",
+      "region": {
+        "startLine": 39,
+        "endColumn": 26
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/cyclic-import",
+      "rule_index": 86,
+      "level": "warning",
+      "message": "Import of module [click.decorators](1) begins an import cycle.",
+      "file": "src/click/core.py",
+      "region": {
+        "startLine": 1073,
+        "startColumn": 13,
+        "endColumn": 48
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/cyclic-import",
+      "rule_index": 86,
+      "level": "warning",
+      "message": "Import of module [click.shell_completion](1) begins an import cycle.",
+      "file": "src/click/core.py",
+      "region": {
+        "startLine": 1283,
+        "startColumn": 9,
+        "endColumn": 58
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/cyclic-import",
+      "rule_index": 86,
+      "level": "warning",
+      "message": "Import of module [click.shell_completion](1) begins an import cycle.",
+      "file": "src/click/core.py",
+      "region": {
+        "startLine": 1478,
+        "startColumn": 9,
+        "endColumn": 53
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/cyclic-import",
+      "rule_index": 86,
+      "level": "warning",
+      "message": "Import of module [click.decorators](1) begins an import cycle.",
+      "file": "src/click/core.py",
+      "region": {
+        "startLine": 1657,
+        "startColumn": 9,
+        "endColumn": 40
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/cyclic-import",
+      "rule_index": 86,
+      "level": "warning",
+      "message": "Import of module [click.decorators](1) begins an import cycle.",
+      "file": "src/click/core.py",
+      "region": {
+        "startLine": 1706,
+        "startColumn": 9,
+        "endColumn": 38
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/cyclic-import",
+      "rule_index": 86,
+      "level": "warning",
+      "message": "Import of module [click.shell_completion](1) begins an import cycle.",
+      "file": "src/click/core.py",
+      "region": {
+        "startLine": 1944,
+        "startColumn": 9,
+        "endColumn": 58
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/cyclic-import",
+      "rule_index": 86,
+      "level": "warning",
+      "message": "Import of module [click.core](1) begins an import cycle.",
+      "file": "src/click/decorators.py",
+      "region": {
+        "startLine": 8,
+        "endColumn": 27
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/cyclic-import",
+      "rule_index": 86,
+      "level": "warning",
+      "message": "Import of module [click.core](1) begins an import cycle.",
+      "file": "src/click/decorators.py",
+      "region": {
+        "startLine": 9,
+        "endColumn": 26
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/cyclic-import",
+      "rule_index": 86,
+      "level": "warning",
+      "message": "Import of module [click.core](1) begins an import cycle.",
+      "file": "src/click/decorators.py",
+      "region": {
+        "startLine": 10,
+        "endColumn": 26
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/cyclic-import",
+      "rule_index": 86,
+      "level": "warning",
+      "message": "Import of module [click.core](1) begins an import cycle.",
+      "file": "src/click/decorators.py",
+      "region": {
+        "startLine": 11,
+        "endColumn": 24
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/cyclic-import",
+      "rule_index": 86,
+      "level": "warning",
+      "message": "Import of module [click.core](1) begins an import cycle.",
+      "file": "src/click/decorators.py",
+      "region": {
+        "startLine": 12,
+        "endColumn": 25
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/cyclic-import",
+      "rule_index": 86,
+      "level": "warning",
+      "message": "Import of module [click.core](1) begins an import cycle.",
+      "file": "src/click/decorators.py",
+      "region": {
+        "startLine": 13,
+        "endColumn": 28
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/cyclic-import",
+      "rule_index": 86,
+      "level": "warning",
+      "message": "Import of module [click.core](1) begins an import cycle.",
+      "file": "src/click/shell_completion.py",
+      "region": {
+        "startLine": 9,
+        "endColumn": 27
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/cyclic-import",
+      "rule_index": 86,
+      "level": "warning",
+      "message": "Import of module [click.core](1) begins an import cycle.",
+      "file": "src/click/shell_completion.py",
+      "region": {
+        "startLine": 10,
+        "endColumn": 26
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/cyclic-import",
+      "rule_index": 86,
+      "level": "warning",
+      "message": "Import of module [click.core](1) begins an import cycle.",
+      "file": "src/click/shell_completion.py",
+      "region": {
+        "startLine": 11,
+        "endColumn": 26
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/cyclic-import",
+      "rule_index": 86,
+      "level": "warning",
+      "message": "Import of module [click.core](1) begins an import cycle.",
+      "file": "src/click/shell_completion.py",
+      "region": {
+        "startLine": 12,
+        "endColumn": 24
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/cyclic-import",
+      "rule_index": 86,
+      "level": "warning",
+      "message": "Import of module [click.core](1) begins an import cycle.",
+      "file": "src/click/shell_completion.py",
+      "region": {
+        "startLine": 13,
+        "endColumn": 25
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/cyclic-import",
+      "rule_index": 86,
+      "level": "warning",
+      "message": "Import of module [click.core](1) begins an import cycle.",
+      "file": "src/click/shell_completion.py",
+      "region": {
+        "startLine": 14,
+        "endColumn": 28
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/cyclic-import",
+      "rule_index": 86,
+      "level": "warning",
+      "message": "Import of module [click.core](1) begins an import cycle.",
+      "file": "src/click/shell_completion.py",
+      "region": {
+        "startLine": 15,
+        "endColumn": 34
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/cyclic-import",
+      "rule_index": 86,
+      "level": "warning",
+      "message": "Import of module [click.types](1) begins an import cycle.",
+      "file": "src/click/termui.py",
+      "region": {
+        "startLine": 17,
+        "endColumn": 26
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/cyclic-import",
+      "rule_index": 86,
+      "level": "warning",
+      "message": "Import of module [click.types](1) begins an import cycle.",
+      "file": "src/click/termui.py",
+      "region": {
+        "startLine": 18,
+        "endColumn": 32
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/cyclic-import",
+      "rule_index": 86,
+      "level": "warning",
+      "message": "Import of module [click.types](1) begins an import cycle.",
+      "file": "src/click/termui.py",
+      "region": {
+        "startLine": 19,
+        "endColumn": 29
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/cyclic-import",
+      "rule_index": 86,
+      "level": "warning",
+      "message": "Import of module [click.shell_completion](1) begins an import cycle.",
+      "file": "src/click/types.py",
+      "region": {
+        "startLine": 388,
+        "startColumn": 9,
+        "endColumn": 58
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/cyclic-import",
+      "rule_index": 86,
+      "level": "warning",
+      "message": "Import of module [click.shell_completion](1) begins an import cycle.",
+      "file": "src/click/types.py",
+      "region": {
+        "startLine": 870,
+        "startColumn": 9,
+        "endColumn": 58
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/cyclic-import",
+      "rule_index": 86,
+      "level": "warning",
+      "message": "Import of module [click.shell_completion](1) begins an import cycle.",
+      "file": "src/click/types.py",
+      "region": {
+        "startLine": 1054,
+        "startColumn": 9,
+        "endColumn": 58
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/import-and-import-from",
+      "rule_index": 89,
+      "level": "warning",
+      "message": "Module 'click' is imported with both 'import' and 'import from'.",
+      "file": "tests/test_context.py",
+      "region": {
+        "startLine": 8,
+        "endColumn": 13
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/import-and-import-from",
+      "rule_index": 89,
+      "level": "warning",
+      "message": "Module 'click' is imported with both 'import' and 'import from'.",
+      "file": "tests/test_defaults.py",
+      "region": {
+        "startLine": 3,
+        "endColumn": 13
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/import-and-import-from",
+      "rule_index": 89,
+      "level": "warning",
+      "message": "Module 'click' is imported with both 'import' and 'import from'.",
+      "file": "tests/test_options.py",
+      "region": {
+        "startLine": 14,
+        "endColumn": 13
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/import-and-import-from",
+      "rule_index": 89,
+      "level": "warning",
+      "message": "Module 'click.shell_completion' is imported with both 'import' and 'import from'.",
+      "file": "tests/test_shell_completion.py",
+      "region": {
+        "startLine": 7,
+        "endColumn": 30
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/import-and-import-from",
+      "rule_index": 89,
+      "level": "warning",
+      "message": "Module 'click' is imported with both 'import' and 'import from'.",
+      "file": "tests/test_types.py",
+      "region": {
+        "startLine": 8,
+        "endColumn": 13
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/import-of-mutable-attribute",
+      "rule_index": 90,
+      "level": "warning",
+      "message": "Importing the value of 'should_strip_ansi' from [module click._compat](1) means that any change made to [click._compat.should_strip_ansi](2) will be not be observed locally.\nImporting the value of 'should_strip_ansi' from [module click._compat](1) means that any change made to [click._compat.should_strip_ansi](3) will be not be observed locally.",
+      "file": "tests/test_compat.py",
+      "region": {
+        "startLine": 1,
+        "startColumn": 27,
+        "endColumn": 44
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/import-of-mutable-attribute",
+      "rule_index": 90,
+      "level": "warning",
+      "message": "Importing the value of 'should_strip_ansi' from [module click._compat](1) means that any change made to [click._compat.should_strip_ansi](2) will be not be observed locally.\nImporting the value of 'should_strip_ansi' from [module click._compat](1) means that any change made to [click._compat.should_strip_ansi](3) will be not be observed locally.",
+      "file": "src/click/utils.py",
+      "region": {
+        "startLine": 18,
+        "startColumn": 22,
+        "endColumn": 39
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/overwritten-inherited-attribute",
+      "rule_index": 104,
+      "level": "warning",
+      "message": "Assignment overwrites attribute no_args_is_help, which was previously defined in superclass [Command](1).",
+      "file": "src/click/core.py",
+      "region": {
+        "startLine": 1582,
+        "startColumn": 9,
+        "endColumn": 47
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 118,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "src/click/_compat.py",
+      "region": {
+        "startLine": 74,
+        "startColumn": 9,
+        "endColumn": 26
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 118,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "src/click/_compat.py",
+      "region": {
+        "startLine": 552,
+        "startColumn": 9,
+        "endColumn": 26
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 118,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "src/click/_compat.py",
+      "region": {
+        "startLine": 600,
+        "startColumn": 9,
+        "endColumn": 26
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 118,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "src/click/_termui_impl.py",
+      "region": {
+        "startLine": 485,
+        "startColumn": 9,
+        "endColumn": 32
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 118,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "src/click/_termui_impl.py",
+      "region": {
+        "startLine": 841,
+        "startColumn": 9,
+        "endColumn": 30
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 118,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "src/click/_winconsole.py",
+      "region": {
+        "startLine": 208,
+        "startColumn": 9,
+        "endColumn": 26
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 118,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "examples/aliases/aliases.py",
+      "region": {
+        "startLine": 22,
+        "startColumn": 9,
+        "endColumn": 44
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 118,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "src/click/termui.py",
+      "region": {
+        "startLine": 879,
+        "startColumn": 9,
+        "endColumn": 46
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 118,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "src/click/testing.py",
+      "region": {
+        "startLine": 406,
+        "startColumn": 21,
+        "endColumn": 38
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 118,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "src/click/testing.py",
+      "region": {
+        "startLine": 416,
+        "startColumn": 21,
+        "endColumn": 38
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 118,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "src/click/testing.py",
+      "region": {
+        "startLine": 573,
+        "startColumn": 17,
+        "endColumn": 32
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unreachable-statement",
+      "rule_index": 124,
+      "level": "warning",
+      "message": "This statement is unreachable.",
+      "file": "tests/test_context.py",
+      "region": {
+        "startLine": 582,
+        "startColumn": 5,
+        "endColumn": 32
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unreachable-statement",
+      "rule_index": 124,
+      "level": "warning",
+      "message": "This statement is unreachable.",
+      "file": "tests/test_context.py",
+      "region": {
+        "startLine": 642,
+        "startColumn": 5,
+        "endColumn": 46
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/click/_termui_impl.py",
+      "region": {
+        "startLine": 621,
+        "startColumn": 62,
+        "endColumn": 65
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/click/_termui_impl.py",
+      "region": {
+        "startLine": 626,
+        "startColumn": 53,
+        "endColumn": 56
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/click/core.py",
+      "region": {
+        "startLine": 691,
+        "startColumn": 24,
+        "endColumn": 27
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/click/core.py",
+      "region": {
+        "startLine": 696,
+        "startColumn": 48,
+        "endColumn": 51
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/click/core.py",
+      "region": {
+        "startLine": 763,
+        "startColumn": 13,
+        "endColumn": 16
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/click/core.py",
+      "region": {
+        "startLine": 766,
+        "startColumn": 85,
+        "endColumn": 88
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/click/core.py",
+      "region": {
+        "startLine": 1326,
+        "startColumn": 22,
+        "endColumn": 25
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/click/core.py",
+      "region": {
+        "startLine": 1336,
+        "startColumn": 17,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/click/core.py",
+      "region": {
+        "startLine": 1633,
+        "startColumn": 67,
+        "endColumn": 70
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/click/core.py",
+      "region": {
+        "startLine": 1638,
+        "startColumn": 57,
+        "endColumn": 60
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/click/core.py",
+      "region": {
+        "startLine": 1682,
+        "startColumn": 63,
+        "endColumn": 66
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/click/core.py",
+      "region": {
+        "startLine": 1687,
+        "startColumn": 55,
+        "endColumn": 58
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/click/core.py",
+      "region": {
+        "startLine": 2251,
+        "startColumn": 24,
+        "endColumn": 27
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/click/core.py",
+      "region": {
+        "startLine": 2256,
+        "startColumn": 48,
+        "endColumn": 51
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/click/decorators.py",
+      "region": {
+        "startLine": 138,
+        "startColumn": 45,
+        "endColumn": 48
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/click/decorators.py",
+      "region": {
+        "startLine": 148,
+        "startColumn": 43,
+        "endColumn": 46
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/click/decorators.py",
+      "region": {
+        "startLine": 158,
+        "startColumn": 43,
+        "endColumn": 46
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/click/decorators.py",
+      "region": {
+        "startLine": 165,
+        "startColumn": 43,
+        "endColumn": 46
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/click/decorators.py",
+      "region": {
+        "startLine": 263,
+        "startColumn": 41,
+        "endColumn": 44
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/click/decorators.py",
+      "region": {
+        "startLine": 273,
+        "startColumn": 43,
+        "endColumn": 46
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/click/decorators.py",
+      "region": {
+        "startLine": 283,
+        "startColumn": 43,
+        "endColumn": 46
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/click/decorators.py",
+      "region": {
+        "startLine": 290,
+        "startColumn": 41,
+        "endColumn": 44
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/click/globals.py",
+      "region": {
+        "startLine": 13,
+        "startColumn": 71,
+        "endColumn": 74
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/click/globals.py",
+      "region": {
+        "startLine": 17,
+        "startColumn": 64,
+        "endColumn": 67
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/click/termui.py",
+      "region": {
+        "startLine": 310,
+        "startColumn": 24,
+        "endColumn": 27
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/click/termui.py",
+      "region": {
+        "startLine": 331,
+        "startColumn": 22,
+        "endColumn": 25
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/click/termui.py",
+      "region": {
+        "startLine": 700,
+        "startColumn": 20,
+        "endColumn": 23
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/click/termui.py",
+      "region": {
+        "startLine": 710,
+        "startColumn": 18,
+        "endColumn": 21
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/click/termui.py",
+      "region": {
+        "startLine": 721,
+        "startColumn": 12,
+        "endColumn": 15
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/click/testing.py",
+      "region": {
+        "startLine": 117,
+        "startColumn": 9,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/file-not-closed",
+      "rule_index": 141,
+      "level": "warning",
+      "message": "File is opened but is not closed.",
+      "file": "src/click/_compat.py",
+      "region": {
+        "startLine": 432,
+        "startColumn": 18,
+        "endColumn": 79
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/file-not-closed",
+      "rule_index": 141,
+      "level": "warning",
+      "message": "File is opened but is not closed.",
+      "file": "src/click/_compat.py",
+      "region": {
+        "startLine": 447,
+        "startColumn": 9,
+        "endColumn": 50
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/file-not-closed",
+      "rule_index": 141,
+      "level": "warning",
+      "message": "File may not be closed if [this operation](1) raises an exception.",
+      "file": "src/click/_termui_impl.py",
+      "region": {
+        "startLine": 823,
+        "startColumn": 17,
+        "endColumn": 33
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/file-not-closed",
+      "rule_index": 141,
+      "level": "warning",
+      "message": "File is opened but is not closed.",
+      "file": "tests/test_utils.py",
+      "region": {
+        "startLine": 225,
+        "startColumn": 9,
+        "endColumn": 50
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/file-not-closed",
+      "rule_index": 141,
+      "level": "warning",
+      "message": "File is opened but is not closed.",
+      "file": "tests/test_utils.py",
+      "region": {
+        "startLine": 239,
+        "startColumn": 24,
+        "endColumn": 50
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/file-not-closed",
+      "rule_index": 141,
+      "level": "warning",
+      "message": "File is opened but is not closed.",
+      "file": "tests/test_utils.py",
+      "region": {
+        "startLine": 457,
+        "startColumn": 13,
+        "endColumn": 59
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/file-not-closed",
+      "rule_index": 141,
+      "level": "warning",
+      "message": "File is opened but is not closed.",
+      "file": "tests/test_utils.py",
+      "region": {
+        "startLine": 479,
+        "startColumn": 5,
+        "endColumn": 36
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/file-not-closed",
+      "rule_index": 141,
+      "level": "warning",
+      "message": "File is opened but is not closed.",
+      "file": "tests/test_utils.py",
+      "region": {
+        "startLine": 485,
+        "startColumn": 5,
+        "endColumn": 69
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/file-not-closed",
+      "rule_index": 141,
+      "level": "warning",
+      "message": "File is opened but is not closed.",
+      "file": "tests/test_utils.py",
+      "region": {
+        "startLine": 491,
+        "startColumn": 5,
+        "endColumn": 47
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/file-not-closed",
+      "rule_index": 141,
+      "level": "warning",
+      "message": "File is opened but is not closed.",
+      "file": "tests/test_utils.py",
+      "region": {
+        "startLine": 497,
+        "startColumn": 5,
+        "endColumn": 80
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/file-not-closed",
+      "rule_index": 141,
+      "level": "warning",
+      "message": "File is opened but is not closed.",
+      "file": "src/click/utils.py",
+      "region": {
+        "startLine": 144,
+        "startColumn": 24,
+        "endColumn": 35
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/file-not-closed",
+      "rule_index": 141,
+      "level": "warning",
+      "message": "File is opened but is not closed.",
+      "file": "src/click/utils.py",
+      "region": {
+        "startLine": 193,
+        "startColumn": 9,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/iter-returns-non-self",
+      "rule_index": 151,
+      "level": "warning",
+      "message": "Iter method of iterator [ProgressBar](1) does not return `self`.",
+      "file": "src/click/_termui_impl.py",
+      "region": {
+        "startLine": 128,
+        "startColumn": 5,
+        "endColumn": 44
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/mixed-returns",
+      "rule_index": 153,
+      "level": "warning",
+      "message": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None.",
+      "file": "src/click/_termui_impl.py",
+      "region": {
+        "startLine": 369,
+        "endColumn": 77
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/mixed-returns",
+      "rule_index": 153,
+      "level": "warning",
+      "message": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None.",
+      "file": "examples/aliases/aliases.py",
+      "region": {
+        "startLine": 42,
+        "startColumn": 5,
+        "endColumn": 42
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/mixed-returns",
+      "rule_index": 153,
+      "level": "warning",
+      "message": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None.",
+      "file": "examples/complex/complex/cli.py",
+      "region": {
+        "startLine": 40,
+        "startColumn": 5,
+        "endColumn": 38
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/mixed-returns",
+      "rule_index": 153,
+      "level": "warning",
+      "message": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None.",
+      "file": "src/click/core.py",
+      "region": {
+        "startLine": 1255,
+        "startColumn": 5,
+        "endColumn": 45
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/mixed-returns",
+      "rule_index": 153,
+      "level": "warning",
+      "message": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None.",
+      "file": "src/click/core.py",
+      "region": {
+        "startLine": 1338,
+        "startColumn": 5,
+        "endLine": 1346,
+        "endColumn": 16
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/mixed-returns",
+      "rule_index": 153,
+      "level": "warning",
+      "message": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None.",
+      "file": "examples/imagepipe/imagepipe.py",
+      "region": {
+        "startLine": 165,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/mixed-returns",
+      "rule_index": 153,
+      "level": "warning",
+      "message": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None.",
+      "file": "examples/imagepipe/imagepipe.py",
+      "region": {
+        "startLine": 178,
+        "endColumn": 37
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/mixed-returns",
+      "rule_index": 153,
+      "level": "warning",
+      "message": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None.",
+      "file": "examples/termui/termui.py",
+      "region": {
+        "startLine": 56,
+        "startColumn": 5,
+        "endColumn": 25
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/mixed-returns",
+      "rule_index": 153,
+      "level": "warning",
+      "message": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None.",
+      "file": "src/click/types.py",
+      "region": {
+        "startLine": 83,
+        "startColumn": 5,
+        "endLine": 88,
+        "endColumn": 16
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/mixed-returns",
+      "rule_index": 153,
+      "level": "warning",
+      "message": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None.",
+      "file": "src/click/types.py",
+      "region": {
+        "startLine": 336,
+        "startColumn": 5,
+        "endLine": 338,
+        "endColumn": 25
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/mixed-returns",
+      "rule_index": 153,
+      "level": "warning",
+      "message": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None.",
+      "file": "src/click/types.py",
+      "region": {
+        "startLine": 815,
+        "startColumn": 5,
+        "endLine": 820,
+        "endColumn": 22
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/mixed-returns",
+      "rule_index": 153,
+      "level": "warning",
+      "message": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None.",
+      "file": "tests/typing/typing_aliased_group.py",
+      "region": {
+        "startLine": 11,
+        "startColumn": 5,
+        "endColumn": 86
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/procedure-return-value-used",
+      "rule_index": 154,
+      "level": "warning",
+      "message": "The result of [_nullpager](1) is used even though it is always None.",
+      "file": "src/click/_termui_impl.py",
+      "region": {
+        "startLine": 379,
+        "startColumn": 16,
+        "endColumn": 52
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unexpected-raise-in-special-method",
+      "rule_index": 156,
+      "level": "warning",
+      "message": "This method always raises [ValueError](1) - should raise a TypeError instead.",
+      "file": "tests/test_options.py",
+      "region": {
+        "startLine": 1711,
+        "startColumn": 9,
+        "endColumn": 28
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 162,
+      "level": "warning",
+      "message": "Variable rv is not used.",
+      "file": "tests/test_context.py",
+      "region": {
+        "startLine": 579,
+        "startColumn": 9,
+        "endColumn": 11
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 162,
+      "level": "warning",
+      "message": "Variable rv is not used.",
+      "file": "tests/test_context.py",
+      "region": {
+        "startLine": 636,
+        "startColumn": 9,
+        "endColumn": 11
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 162,
+      "level": "warning",
+      "message": "Variable rv_nested is not used.",
+      "file": "tests/test_context.py",
+      "region": {
+        "startLine": 637,
+        "startColumn": 9,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-global-variable",
+      "rule_index": 164,
+      "level": "warning",
+      "message": "The global variable '_default_text_stdin' is not used.",
+      "file": "src/click/_compat.py",
+      "region": {
+        "startLine": 607,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-global-variable",
+      "rule_index": 164,
+      "level": "warning",
+      "message": "The global variable '_default_text_stdout' is not used.",
+      "file": "src/click/_compat.py",
+      "region": {
+        "startLine": 608,
+        "endColumn": 21
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-global-variable",
+      "rule_index": 164,
+      "level": "warning",
+      "message": "The global variable '_default_text_stderr' is not used.",
+      "file": "src/click/_compat.py",
+      "region": {
+        "startLine": 609,
+        "endColumn": 21
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    }
+  ],
+  "sarif_metadata": {
+    "version": "2.1.0",
+    "schema_uri": "https://json.schemastore.org/sarif-2.1.0.json",
+    "tool": {
+      "name": "CodeQL",
+      "version": "unknown",
+      "information_uri": ""
+    },
+    "tool_name": "CodeQL",
+    "tool_version": "unknown"
+  }
+}

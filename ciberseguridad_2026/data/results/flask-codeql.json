@@ -1,0 +1,963 @@
+{
+  "total_issues": 68,
+  "issues_by_severity": {
+    "error": 0,
+    "warning": 68,
+    "note": 0
+  },
+  "issues": [
+    {
+      "rule_id": "py/reflective-xss",
+      "rule_index": 32,
+      "level": "warning",
+      "message": "Cross-site scripting vulnerability due to a [user-provided value](1).",
+      "file": "tests/test_async.py",
+      "region": {
+        "startLine": 27,
+        "startColumn": 16,
+        "endColumn": 30
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/reflective-xss",
+      "rule_index": 32,
+      "level": "warning",
+      "message": "Cross-site scripting vulnerability due to a [user-provided value](1).",
+      "file": "tests/test_async.py",
+      "region": {
+        "startLine": 48,
+        "startColumn": 16,
+        "endColumn": 30
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/reflective-xss",
+      "rule_index": 32,
+      "level": "warning",
+      "message": "Cross-site scripting vulnerability due to a [user-provided value](1).",
+      "file": "tests/test_async.py",
+      "region": {
+        "startLine": 63,
+        "startColumn": 16,
+        "endColumn": 30
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/reflective-xss",
+      "rule_index": 32,
+      "level": "warning",
+      "message": "Cross-site scripting vulnerability due to a [user-provided value](1).",
+      "file": "tests/test_basic.py",
+      "region": {
+        "startLine": 1482,
+        "startColumn": 16,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/reflective-xss",
+      "rule_index": 32,
+      "level": "warning",
+      "message": "Cross-site scripting vulnerability due to a [user-provided value](1).",
+      "file": "tests/test_blueprints.py",
+      "region": {
+        "startLine": 278,
+        "startColumn": 16,
+        "endColumn": 25
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/reflective-xss",
+      "rule_index": 32,
+      "level": "warning",
+      "message": "Cross-site scripting vulnerability due to a [user-provided value](1).",
+      "file": "tests/test_helpers.py",
+      "region": {
+        "startLine": 251,
+        "startColumn": 35,
+        "endColumn": 53
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/reflective-xss",
+      "rule_index": 32,
+      "level": "warning",
+      "message": "Cross-site scripting vulnerability due to a [user-provided value](1).",
+      "file": "tests/test_testing.py",
+      "region": {
+        "startLine": 126,
+        "startColumn": 16,
+        "endColumn": 33
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/reflective-xss",
+      "rule_index": 32,
+      "level": "warning",
+      "message": "Cross-site scripting vulnerability due to a [user-provided value](1).",
+      "file": "tests/type_check/typing_route.py",
+      "region": {
+        "startLine": 72,
+        "startColumn": 12,
+        "endColumn": 25
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 81,
+      "level": "warning",
+      "message": "Import of 'BlueprintSetupState' is not used.",
+      "file": "src/flask/blueprints.py",
+      "region": {
+        "startLine": 11,
+        "endColumn": 74
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 81,
+      "level": "warning",
+      "message": "Import of 'app' is not used.",
+      "file": "tests/test_apps/helloworld/wsgi.py",
+      "region": {
+        "startLine": 1,
+        "endColumn": 22
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/import-own-module",
+      "rule_index": 88,
+      "level": "warning",
+      "message": "The module 'typing' imports itself.\nThe module 'flask.typing' imports itself.",
+      "file": "src/flask/typing.py",
+      "region": {
+        "startLine": 4,
+        "endColumn": 19
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/import-and-import-from",
+      "rule_index": 89,
+      "level": "warning",
+      "message": "Module 'typing' is imported with both 'import' and 'import from'.\nModule 'flask.typing' is imported with both 'import' and 'import from'.",
+      "file": "src/flask/app.py",
+      "region": {
+        "startLine": 7,
+        "endColumn": 19
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/import-and-import-from",
+      "rule_index": 89,
+      "level": "warning",
+      "message": "Module 'logging' is imported with both 'import' and 'import from'.",
+      "file": "src/flask/sansio/app.py",
+      "region": {
+        "startLine": 3,
+        "endColumn": 15
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/import-and-import-from",
+      "rule_index": 89,
+      "level": "warning",
+      "message": "Module 'flask' is imported with both 'import' and 'import from'.",
+      "file": "tests/test_json.py",
+      "region": {
+        "startLine": 9,
+        "endColumn": 13
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/import-and-import-from",
+      "rule_index": 89,
+      "level": "warning",
+      "message": "Module 'flask' is imported with both 'import' and 'import from'.",
+      "file": "tests/test_testing.py",
+      "region": {
+        "startLine": 6,
+        "endColumn": 13
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/missing-call-to-init",
+      "rule_index": 98,
+      "level": "warning",
+      "message": "This class does not call [Flask.__init__](1) during initialization. (The class lacks an __init__ method to ensure every base class __init__ is called.)",
+      "file": "src/flask/globals.py",
+      "region": {
+        "startLine": 22,
+        "startColumn": 5,
+        "endColumn": 48
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/missing-call-to-init",
+      "rule_index": 98,
+      "level": "warning",
+      "message": "This class does not call [AppContext.__init__](1) during initialization. (The class lacks an __init__ method to ensure every base class __init__ is called.)",
+      "file": "src/flask/globals.py",
+      "region": {
+        "startLine": 24,
+        "startColumn": 5,
+        "endColumn": 63
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/missing-equals",
+      "rule_index": 107,
+      "level": "warning",
+      "message": "The class 'Config' does not override ['__eq__'](1), but adds the new attribute [root_path](2).",
+      "file": "src/flask/config.py",
+      "region": {
+        "startLine": 50,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/illegal-raise",
+      "rule_index": 113,
+      "level": "warning",
+      "message": "Illegal class 'NoneType' raised; will result in a TypeError being raised instead.",
+      "file": "tests/test_regression.py",
+      "region": {
+        "startLine": 14,
+        "startColumn": 9,
+        "endColumn": 65
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 118,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "src/flask/cli.py",
+      "region": {
+        "startLine": 1098,
+        "startColumn": 5,
+        "endColumn": 23
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-exception-object",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Instantiating an exception, but not raising it, has no effect.",
+      "file": "tests/test_helpers.py",
+      "region": {
+        "startLine": 225,
+        "startColumn": 13,
+        "endColumn": 75
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-exception-object",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Instantiating an exception, but not raising it, has no effect.",
+      "file": "tests/test_reqctx.py",
+      "region": {
+        "startLine": 221,
+        "startColumn": 9,
+        "endColumn": 25
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-exception-object",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Instantiating an exception, but not raising it, has no effect.",
+      "file": "tests/test_request.py",
+      "region": {
+        "startLine": 15,
+        "startColumn": 9,
+        "endColumn": 25
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unreachable-statement",
+      "rule_index": 124,
+      "level": "warning",
+      "message": "This statement is unreachable.",
+      "file": "src/flask/app.py",
+      "region": {
+        "startLine": 734,
+        "startColumn": 9,
+        "endColumn": 22
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unreachable-statement",
+      "rule_index": 124,
+      "level": "warning",
+      "message": "This statement is unreachable.",
+      "file": "tests/test_apps/cliapp/importerrorapp.py",
+      "region": {
+        "startLine": 5,
+        "endColumn": 27
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/side-effect-in-assert",
+      "rule_index": 131,
+      "level": "warning",
+      "message": "This 'assert' statement contains an [expression](1) which may have side effects.",
+      "file": "tests/test_appctx.py",
+      "region": {
+        "startLine": 152,
+        "startColumn": 5,
+        "endColumn": 53
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/side-effect-in-assert",
+      "rule_index": 131,
+      "level": "warning",
+      "message": "This 'assert' statement contains an [expression](1) which may have side effects.",
+      "file": "tests/test_appctx.py",
+      "region": {
+        "startLine": 155,
+        "startColumn": 5,
+        "endColumn": 58
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/side-effect-in-assert",
+      "rule_index": 131,
+      "level": "warning",
+      "message": "This 'assert' statement contains an [expression](1) which may have side effects.",
+      "file": "tests/test_blueprints.py",
+      "region": {
+        "startLine": 924,
+        "startColumn": 9,
+        "endColumn": 45
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/side-effect-in-assert",
+      "rule_index": 131,
+      "level": "warning",
+      "message": "This 'assert' statement contains an [expression](1) which may have side effects.",
+      "file": "tests/test_blueprints.py",
+      "region": {
+        "startLine": 932,
+        "startColumn": 9,
+        "endColumn": 45
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/side-effect-in-assert",
+      "rule_index": 131,
+      "level": "warning",
+      "message": "This 'assert' statement contains an [expression](1) which may have side effects.",
+      "file": "tests/test_blueprints.py",
+      "region": {
+        "startLine": 944,
+        "startColumn": 9,
+        "endColumn": 48
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/side-effect-in-assert",
+      "rule_index": 131,
+      "level": "warning",
+      "message": "This 'assert' statement contains an [expression](1) which may have side effects.",
+      "file": "tests/test_blueprints.py",
+      "region": {
+        "startLine": 952,
+        "startColumn": 9,
+        "endColumn": 48
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/side-effect-in-assert",
+      "rule_index": 131,
+      "level": "warning",
+      "message": "This 'assert' statement contains an [expression](1) which may have side effects.",
+      "file": "tests/test_blueprints.py",
+      "region": {
+        "startLine": 964,
+        "startColumn": 9,
+        "endColumn": 47
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/side-effect-in-assert",
+      "rule_index": 131,
+      "level": "warning",
+      "message": "This 'assert' statement contains an [expression](1) which may have side effects.",
+      "file": "tests/test_blueprints.py",
+      "region": {
+        "startLine": 972,
+        "startColumn": 9,
+        "endColumn": 47
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/side-effect-in-assert",
+      "rule_index": 131,
+      "level": "warning",
+      "message": "This 'assert' statement contains an [expression](1) which may have side effects.",
+      "file": "tests/test_views.py",
+      "region": {
+        "startLine": 215,
+        "startColumn": 5,
+        "endColumn": 67
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/side-effect-in-assert",
+      "rule_index": 131,
+      "level": "warning",
+      "message": "This 'assert' statement contains an [expression](1) which may have side effects.",
+      "file": "tests/test_views.py",
+      "region": {
+        "startLine": 234,
+        "startColumn": 5,
+        "endColumn": 48
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/flask/sansio/app.py",
+      "region": {
+        "startLine": 661,
+        "startColumn": 78,
+        "endColumn": 81
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/flask/sansio/app.py",
+      "region": {
+        "startLine": 665,
+        "startColumn": 62,
+        "endColumn": 65
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/flask/sansio/app.py",
+      "region": {
+        "startLine": 711,
+        "startColumn": 72,
+        "endColumn": 75
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/flask/sansio/app.py",
+      "region": {
+        "startLine": 715,
+        "startColumn": 58,
+        "endColumn": 61
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/flask/sansio/app.py",
+      "region": {
+        "startLine": 770,
+        "startColumn": 78,
+        "endColumn": 81
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/flask/sansio/app.py",
+      "region": {
+        "startLine": 774,
+        "startColumn": 62,
+        "endColumn": 65
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/flask/sansio/blueprints.py",
+      "region": {
+        "startLine": 444,
+        "startColumn": 82,
+        "endColumn": 85
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/flask/sansio/blueprints.py",
+      "region": {
+        "startLine": 448,
+        "startColumn": 62,
+        "endColumn": 65
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/flask/sansio/blueprints.py",
+      "region": {
+        "startLine": 498,
+        "startColumn": 76,
+        "endColumn": 79
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/flask/sansio/blueprints.py",
+      "region": {
+        "startLine": 502,
+        "startColumn": 58,
+        "endColumn": 61
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/flask/sansio/blueprints.py",
+      "region": {
+        "startLine": 556,
+        "startColumn": 82,
+        "endColumn": 85
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/flask/sansio/blueprints.py",
+      "region": {
+        "startLine": 560,
+        "startColumn": 62,
+        "endColumn": 65
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/flask/cli.py",
+      "region": {
+        "startLine": 232,
+        "startColumn": 13,
+        "endColumn": 16
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/flask/cli.py",
+      "region": {
+        "startLine": 238,
+        "startColumn": 20,
+        "endColumn": 23
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/flask/config.py",
+      "region": {
+        "startLine": 30,
+        "startColumn": 59,
+        "endColumn": 62
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/flask/config.py",
+      "region": {
+        "startLine": 33,
+        "startColumn": 57,
+        "endColumn": 60
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/flask/globals.py",
+      "region": {
+        "startLine": 18,
+        "startColumn": 45,
+        "endColumn": 48
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/flask/globals.py",
+      "region": {
+        "startLine": 22,
+        "startColumn": 49,
+        "endColumn": 52
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/flask/globals.py",
+      "region": {
+        "startLine": 24,
+        "startColumn": 64,
+        "endColumn": 67
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/flask/globals.py",
+      "region": {
+        "startLine": 26,
+        "startColumn": 76,
+        "endColumn": 79
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/flask/globals.py",
+      "region": {
+        "startLine": 28,
+        "startColumn": 55,
+        "endColumn": 58
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/flask/globals.py",
+      "region": {
+        "startLine": 30,
+        "startColumn": 70,
+        "endColumn": 73
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/flask/helpers.py",
+      "region": {
+        "startLine": 54,
+        "startColumn": 28,
+        "endColumn": 31
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "src/flask/helpers.py",
+      "region": {
+        "startLine": 60,
+        "startColumn": 64,
+        "endColumn": 67
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "tests/type_check/typing_app_decorators.py",
+      "region": {
+        "startLine": 20,
+        "startColumn": 28,
+        "endColumn": 31
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "tests/type_check/typing_app_decorators.py",
+      "region": {
+        "startLine": 24,
+        "startColumn": 35,
+        "endColumn": 38
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "tests/type_check/typing_app_decorators.py",
+      "region": {
+        "startLine": 28,
+        "startColumn": 55,
+        "endColumn": 58
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 139,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "tests/type_check/typing_app_decorators.py",
+      "region": {
+        "startLine": 32,
+        "startColumn": 62,
+        "endColumn": 65
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/file-not-closed",
+      "rule_index": 141,
+      "level": "warning",
+      "message": "File is opened but is not closed.",
+      "file": "tests/test_helpers.py",
+      "region": {
+        "startLine": 368,
+        "startColumn": 9,
+        "endColumn": 53
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/procedure-return-value-used",
+      "rule_index": 154,
+      "level": "warning",
+      "message": "The result of [abort](1) is used even though it is always None.",
+      "file": "tests/test_regression.py",
+      "region": {
+        "startLine": 14,
+        "startColumn": 15,
+        "endColumn": 65
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-loop-variable",
+      "rule_index": 163,
+      "level": "warning",
+      "message": "For loop variable '_trigger' is not used in the loop body.",
+      "file": "tests/test_basic.py",
+      "region": {
+        "startLine": 1120,
+        "startColumn": 5,
+        "endColumn": 39
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-global-variable",
+      "rule_index": 164,
+      "level": "warning",
+      "message": "The global variable '_sentinel' is not used.",
+      "file": "src/flask/sansio/scaffold.py",
+      "region": {
+        "startLine": 25,
+        "endColumn": 10
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/uninitialized-local-variable",
+      "rule_index": 167,
+      "level": "warning",
+      "message": "Local variable 'error' may be used before it is initialized.",
+      "file": "tests/test_basic.py",
+      "region": {
+        "startLine": 1384,
+        "startColumn": 63,
+        "endColumn": 68
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    }
+  ],
+  "sarif_metadata": {
+    "version": "2.1.0",
+    "schema_uri": "https://json.schemastore.org/sarif-2.1.0.json",
+    "tool": {
+      "name": "CodeQL",
+      "version": "unknown",
+      "information_uri": ""
+    },
+    "tool_name": "CodeQL",
+    "tool_version": "unknown"
+  }
+}
